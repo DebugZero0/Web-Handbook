@@ -372,4 +372,6 @@ project/
 
 Your Node.js application is now configured to send emails securely using **Google OAuth 2.0** with **Nodemailer**, eliminating the need for less secure app passwords.
 
+IF new Refresh is to be generated,copy the exixting client ID and secret and repeat Step 7.
+
 Happy Coding! 🚀
