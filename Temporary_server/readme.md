@@ -1,7 +1,7 @@
 ## Step 1
 open the directory which you want to create the temporary server in.
+- check your ip address by running the following command in the terminal:
 
-    - check your ip address by running the following command in the terminal:
     ```bash
         ipconfig
     ```
