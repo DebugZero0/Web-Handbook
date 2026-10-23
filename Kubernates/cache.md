@@ -63,5 +63,7 @@ kubectl exec deploy/<deployment-name> -- cat /app/src/app.js
 
 You should now see the new imports and all routes.
 
+<B>Remember to update the tag in your Deployment whenever you make changes to the code and rebuild the image.
+
 
 #### The problem was that Kubernetes was still running the old image, which didn't contain your new code. By rebuilding the image with a new tag and updating the Deployment, you ensured that Kubernetes pulled the new image and ran it in the Pod.
